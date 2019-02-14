@@ -1,1 +1,16 @@
-configs
+config/
+
+# Node
+#
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Xcode
+#
+build/
+
+# OSX
+#
+.DS_Store
+
