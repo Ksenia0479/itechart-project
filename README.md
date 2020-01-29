@@ -21,7 +21,7 @@ Note: This guide requires Windows 10 OS to be installed
      b. Old version which can help to avoid the issues with VS C Runtime availability ("Failed to create menus" during installation) https://repo.continuum.io/miniconda/Miniconda3-4.5.12-Windows-x86_64.exe 
 - Run the following command line from `Anaconda prompt` which is available in the start menu
 - Then run and wait for all packages to download
->conda-env update -f frontend/setup/env-frontend-new.yaml 
+>conda-env update -f frontend/setup/env-frontend.yaml 
 - Run the following command after which the prefix the command prompt should change to "synergt"
 >activate synergt
 - Install Postgres 11 for Windows from https://www.enterprisedb.com/downloads/postgres-postgresql-downloads 
